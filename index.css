@@ -66,6 +66,23 @@
     border-radius: 5px;
 }
 
+.btn1, .btn2, .btn3, .btn4{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+}
+
+.btn1:hover, .btn2:hover, .btn3:hover, .btn4:hover, .sabtn:hover{
+    background-color: royalblue;
+    color: white;
+}
+
+
+
 @media screen and (max-width: 768px) {
 
     .div1, .div2, .div3, .div4 {
